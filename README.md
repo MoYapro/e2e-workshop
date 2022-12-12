@@ -2,10 +2,7 @@
 
 ## Run
 - E2E tests are executed with https://codecept.io
-- to run locally use run_e2e.sh
-- to run with docker-compose use `docker-compose run e2e` or with a different BASE_URL `docker-compose run -e BASE_URL=http://foo.bar e2e`
-- to run the latest e2e tests as build from the ci run: `export ENV_BUILD_NUMBER=latest && docker-compose  -f docker-compose-ci.yml up --abort-on-container-exit e2e`
-- you can also replace `latest` with the number of a different azure ci run if needed
+- to run use run_e2e.sh
 
 ## Writing tests
 
